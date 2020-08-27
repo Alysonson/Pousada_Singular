@@ -1,0 +1,77 @@
+body {
+  margin: auto 0;
+}
+/* NAV */
+nav a img {
+  width: 100px;
+}
+nav {
+  background-color: white;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-nav > li {
+  margin-left: 50px;
+}
+/* COVER */
+.welcome {
+  background: url("./img/cover.png");
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom;
+  position: relative;
+}
+.cover {
+  background: linear-gradient(
+    to right,
+    rgba(147, 206, 222, 0.4) 0%,
+    rgba(117, 189, 209, 0.4) 41%,
+    rgba(73, 165, 191, 0.4) 100%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anuncios {
+  text-align: center;
+  color: white;
+  z-index: 1099;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.anuncios.show {
+  visibility: visible;
+  opacity: 1;
+}
+.anuncios h1 {
+  font-size: 6em;
+  font-weight: 900;
+}
+/* SOBRE */
+.sobre {
+  margin: 5rem;
+  align-items: center;
+  padding: 1rem;
+}
+.sobre p {
+  font-size: 1.25rem;
+}
+.intro_sobre {
+  font-weight: bold;
+  color: #131d71;
+}
+.intro_oferece {
+  color: #636a76;
+  font-weight: 400;
+}
+.image_frente {
+  width: 100%;
+  border-radius: 4px;
+  transition: 1s;
+}
+.image_frente:hover {
+  transform: scale(1.02);
+}
