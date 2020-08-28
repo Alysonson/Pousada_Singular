@@ -5,8 +5,9 @@ body {
 nav a img {
   width: 100px;
 }
-nav {
-  background-color: white;
+nav,
+.bg-light {
+  background-color: white !important;
 }
 .navbar-nav {
   margin-left: auto;
@@ -23,12 +24,7 @@ nav {
   position: relative;
 }
 .cover {
-  background: linear-gradient(
-    to right,
-    rgba(147, 206, 222, 0.4) 0%,
-    rgba(117, 189, 209, 0.4) 41%,
-    rgba(73, 165, 191, 0.4) 100%
-  );
+  background: rgba(31, 78, 120, 0.6) 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -74,4 +70,52 @@ nav {
 }
 .image_frente:hover {
   transform: scale(1.02);
+}
+/* BENEFICIOS */
+/* QUARTOS */
+.quartos {
+  margin: 50px;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.quartos h1 {
+  text-align: center;
+}
+.info_quarto {
+  background-color: #0e2737;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.padding {
+  padding-left: 3em;
+}
+.info_quarto h5 {
+  font-size: 3em;
+  font-weight: 300;
+  color: white;
+}
+.info_quarto p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.info_quarto ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+.info_quarto li {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.info_quarto button {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+/* TESTEMUNHOS */
+.carousel-indicators {
+  padding-top: 6rem;
 }
