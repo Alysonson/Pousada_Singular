@@ -133,7 +133,11 @@
           <div class="col-6 image_frente">
             <img src="./img/cliente.jpg" alt="" class="image_frente" />
           </div>
-          <div class="col-6">
+          <div
+            class="col-6 carousel slide"
+            id="carouselExampleIndicators"
+            data-ride="carousel"
+          >
             <p class="intro_sobre">Testemunhos</p>
             <h1>Nossos cliente nos amam</h1>
             <div
@@ -190,7 +194,7 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-            <div style="padding-top: 3em">
+            <div class="indicators-div">
               <ol class="carousel-indicators">
                 <li
                   data-target="#carouselExampleIndicators"
@@ -214,6 +218,98 @@
         </div>
       </div>
     </section>
+    <!-- FALE CONOSCO -->
+    <section class="fale_conosco">
+      <h1>Entre em contato Conosco</h1>
+      <hr id="primeiro_hr" />
+      <div class="contatos container">
+        <div class="row midia_social">
+          <div class="col-4">
+            <div class="contato_icone">
+              <a href=""> <img src="./img/whatsapp.png" alt="" /></a>
+            </div>
+            <p class="contato_texto">(84) 99160-6600 (whats e telefone)</p>
+          </div>
+          <div class="col-4">
+            <div class="contato_icone">
+              <a href="">
+                <img src="./img/gmail.png" alt="" style="border-radius: 0%"
+              /></a>
+            </div>
+            <p class="contato_texto">singularpousada@gmail.com</p>
+          </div>
+          <div class="col-4">
+            <div class="contato_icone">
+              <a href=""> <img src="./img/instagram.png" alt="" /></a>
+            </div>
+            <p class="contato_texto">@pousadasingular</p>
+          </div>
+        </div>
+
+        <hr id="segundo_hr" />
+        <div class="row">
+          <div class="col-6">
+            <h2>Ou nos deixe uma mensagem:</h2>
+            <form class="formulario">
+              <div class="form-group">
+                <label for="contato_nome">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="contato_nome"
+                  placeholder="Qual o seu nome?"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contato_sobrenome">Sobrenome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="contato_sobrenome"
+                  placeholder="Qual seu sobrenome?"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contato_email">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contato_email"
+                  placeholder="Qual seu melhor e-mail?"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"
+                  >Em que podemos ajudar?</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+          <div class="col-6">
+            <div class="frame">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.3637921392606!2d-35.81451511665752!3d-5.538046366378801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3ddd9ff648b29%3A0xef80c048e9425baf!2sPousada%20Singular!5e0!3m2!1spt-BR!2sbr!4v1598896354099!5m2!1spt-BR!2sbr"
+                width="500"
+                height="350"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer></footer>
     <!-- SCRIPTS -->
     <script src="script.js"></script>
     <script

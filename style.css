@@ -116,6 +116,59 @@ nav,
 }
 
 /* TESTEMUNHOS */
-.carousel-indicators {
-  padding-top: 6rem;
+.indicators-div {
+  padding-top: 3em;
+}
+.indicators-div > ol > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/* CONTATO */
+.fale_conosco {
+  background-color: #0e2737;
+  color: white;
+}
+.fale_conosco #primeiro_hr {
+  width: 20%;
+  background-color: white;
+}
+.fale_conosco #segundo_hr {
+  width: 90%;
+  background-color: white;
+  margin-bottom: 5%;
+}
+.fale_conosco h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.midia_social {
+  padding: 3%;
+}
+.contato_icone {
+  text-align: center;
+}
+.contato_icone img {
+  max-width: 3em;
+  max-height: 3em;
+  border-radius: 100%;
+}
+.contato_texto {
+  margin-top: 1em;
+  text-align: center;
+}
+.formulario {
+  padding: 3% 20% 3% 20%;
+}
+.formulario button {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
