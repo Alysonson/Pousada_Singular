@@ -119,6 +119,9 @@ nav,
 }
 
 /* TESTEMUNHOS */
+#cliente {
+  max-width: 80%;
+}
 .indicators-div {
   padding-top: 3em;
 }
